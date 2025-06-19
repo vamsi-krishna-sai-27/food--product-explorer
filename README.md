@@ -89,10 +89,6 @@ http://localhost:5173
 ---
 
 
----
-
-
-
 ## ✨ Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with a clear description of your changes.
@@ -110,6 +106,11 @@ git push origin feature/your-feature-name
 
 ---
 
+## 📅 Estimated Project Completion Time
+
+🕒 **Estimated Time to Complete:** 14–17 hours 
+
+
 ---
 
 ## 👨‍💼 Author
@@ -117,5 +118,5 @@ Vamsi Krishna Sai
 
 GitHub: @vamsi-krishna-sai-27
 
-Email: vamsisupport@example.com
+Email: vamsikrishnasai27@gmail.com
 ---
