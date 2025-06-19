@@ -1,8 +1,6 @@
 # 🥕 Food Product Explorer
 
-**Food Product Explorer** is a responsive web application built with React and Tailwind CSS that allows users to search, filter, and view detailed nutritional information about food products using the [OpenFoodFacts API](https://world.openfoodfacts.org/). The application supports category filtering, nutrition grade sorting, barcode lookup, and more.
-
-![Food Product Explorer Screenshot](./screenshots/homepage.png) <!-- Replace with actual screenshot paths -->
+**Food Product Explorer** is a responsive web application built with React that allows users to search, filter, and view detailed nutritional information about food products using the [OpenFoodFacts API](https://world.openfoodfacts.org/). The application supports category filtering, nutrition grade sorting, barcode lookup, and more.
 
 ---
 
@@ -12,21 +10,13 @@
 - 📂 **Category Filtering** with dynamic dropdowns
 - 📊 **Sorting** by product name or nutrition grade
 - 🏦 **Product Details Page** with:
-
   - Ingredients list
-  - Nutrition grade
-  - Labels (vegan, gluten-free, etc.)
-  - Product images
-
+  - Nutrition values
+  - Labels (vegan, vegetarian, etc.)
+  - Product image
 - ♻️ **Responsive Design** for all devices
 - 🧠 **State Management** using React hooks
 - 📦 **Reusable Components** for clean, scalable architecture
-
----
-
-## 🥪 Live Demo
-
-Check out the live demo here: [https://foodproductswebsite.ramgopalreddy.xyz](https://foodproductswebsite.ramgopalreddy.xyz)
 
 ---
 
@@ -59,37 +49,23 @@ Check out the live demo here: [https://foodproductswebsite.ramgopalreddy.xyz](ht
  └── ...
 ```
 
-## Structure Image
-
-![Structure  Image](./screenshots/structure.png)
-
----
 
 ## 🔧 Installation
 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/ramgopal-reddy/FoodProductWebsite.git
-cd FoodProductWebsite
-```
+git clone https://github.com/vamsi-krishna-sai-27/food--product-explorer.git
+cd food--product-explorer
 
-2. **Install dependencies:**
-
-```bash
+Install dependencies:
 npm install
-```
 
-3. **Run the development server:**
-
-```bash
+Run the development server
 npm run dev
-```
+Open your browser and go to:
+http://localhost:5173
 
-4. Open your browser and go to:
-   `http://localhost:5173` (or the port shown in terminal)
-
----
 
 ## 🌐 API Reference
 
@@ -112,71 +88,34 @@ npm run dev
 
 ---
 
-## 🎨 Color Theme
-
-- ✅ Primary: `#34A853` (Green)
-- 🔏 Text: `#333333`
-- ⚪ Background: `#FAFAFA`, `#E6F4EA`, `#FFFFFF`
-- 🔵 Accent/Focus: `#1A73E8`
-
-These are used via Tailwind utility classes for quick and responsive styling.
 
 ---
 
-## 📸 Screenshots
 
-| Home Page                           | Product Details                              |
-| ----------------------------------- | -------------------------------------------- |
-| ![home](./screenshots/homepage.png) | ![details](./screenshots/product-detail.png) |
-
----
 
 ## ✨ Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with a clear description of your changes.
-
-```bash
 # Fork & Clone
-git clone https://github.com/ramgopal-reddy/FoodProductWebsite.git
+git clone https://github.com/vamsi-krishna-sai-27/food--product-explorer.git
 
-# Create new branch
-git checkout -b feature/RamGopalReddy
+# Create a branch
+git checkout -b feature/your-feature-name
 
 # Make changes and commit
 git commit -m "Add your feature"
 
-# Push and PR
-git push origin feature/RamGopalReddy
-```
+# Push and open a PR
+git push origin feature/your-feature-name
 
 ---
-
-## 🦾 License
-
-This project is licensed under the **MIT License**.
-See the [LICENSE](LICENSE) file for more details.
 
 ---
 
 ## 👨‍💼 Author
+Vamsi Krishna Sai
 
-- **Your Name**
-- GitHub: [https://github.com/ramgopal-reddy](https://github.com/ramgopal-reddy)
-- Email: [redabothularamgopalreddy@gmail.com](mailto:redabothularamgopalreddy@gmail.com)
+GitHub: @vamsi-krishna-sai-27
 
----
-
-## 📬 Feedback
-
-If you have any feedback or suggestions, feel free to [open an issue](https://github.com/ramgopal-reddy/FoodProductWebsite/issues) or send an email.
-
----
-
-## 💡 Future Improvements
-
-- Add shopping cart feature
-- Implement lazy loading for images
-- Improve accessibility (ARIA roles, screen reader support)
-- Add PWA support
-
+Email: vamsisupport@example.com
 ---
